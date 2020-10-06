@@ -1,0 +1,32 @@
+{
+  "name": "mozart409-minimal-react-snippets",
+  "displayName": "mozart409-minimal-react-snippets",
+  "description": "Just a few snippets for react",
+  "version": "0.0.1",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "scripts": {
+    "vscode:prepublish": "yarn run compile"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
